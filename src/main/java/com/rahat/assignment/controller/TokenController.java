@@ -26,7 +26,7 @@ public class TokenController {
 
     }
 
-    @PostMapping("/")
+    @GetMapping("/")
     public String  ex(){
         System.out.println("Çalıştı");
     return "Çalıştı";
